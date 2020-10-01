@@ -1,0 +1,40 @@
+.home {
+    align-items: center;
+    background-image: linear-gradient(rgba(137, 218, 89, 0.4), rgba(0,0,0, 0.5)), url('./natural.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 160px;
+    height: calc(100vh - 170px);
+    h1 {
+        color: white;
+        font-size: 80px;
+        margin: 0;
+        span {
+            font-weight: normal;
+        }
+    }
+    button {
+        background-color: #FF420E;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: -200px;
+        outline: none;
+        padding: 15px;
+        letter-spacing: 2px;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+        width: 220px;
+        &:hover {
+            background-color: transparent;
+            border: 2px solid #89da59;
+        }
+    }
+}

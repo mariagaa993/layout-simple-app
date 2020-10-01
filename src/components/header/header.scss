@@ -1,0 +1,42 @@
+.main-header {
+    align-items: center;
+    background-color: #89da59;
+    color: #3c3c3c;
+    display: flex;
+    height: 120px;
+    padding: 0 50px;
+    .menuBurger a img {
+        width: 30px;
+    }
+    .logo {
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        p {
+            font-size: 30px;
+            margin-right: 10px;  
+        }
+        img {
+            width: 80px;
+        } 
+    }
+    button {
+        background-color: #FF420E;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        outline: none;
+        padding: 15px;
+        letter-spacing: 2px;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+        width: 160px;
+        &:hover {
+            background-color: transparent;
+            border: 2px solid #FF420E;
+        }
+    }
+}

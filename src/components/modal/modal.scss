@@ -1,0 +1,28 @@
+.modal {
+    background-color: white;
+    box-shadow: 0 0 5px #333;
+    height: 250px;
+    left: calc(100% - 82%);
+    position: fixed;
+    top: 17vh;
+    width: 65%;
+    h2 {
+        color: #3c3c3c;
+        padding-top: 5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p {
+        padding: 0 30px;
+        text-align: justify;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        &:hover {
+            background-color: #89da59;
+            border: none;
+        }
+    }
+}
